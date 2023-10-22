@@ -1,0 +1,130 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    background-image: url(img/paper.jpg); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#0b0e3b;
+ 
+    width: 100vw;
+    height: 7vh;
+    padding: 5px ; 
+}
+
+.botbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b0e3b;
+
+    width: 100vw;
+    height: 5vh;
+    padding: 5px ;
+    position: fixed;
+    bottom: 0;
+}
+.botbar h5
+{
+    color: #ffffff;
+
+}
+
+.links{
+    margin-top: 6px;
+    margin-right: 40px;
+    
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    margin-left: 40px; 
+    margin-top: 6px;
+    text-decoration: none;
+}
+.logo img {
+    width: 3vw; 
+    height: auto; 
+    margin-left: 40px;
+    border-radius: 60%;
+}
+.highlight
+{
+    color:rgb(255, 0, 0);
+}
+.maintext h1 {
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+    font-family: fantasy;
+    text-align: center;
+    position: absolute; 
+    top: 30%; 
+    left: 0;
+    right: 0;
+    margin-top: -0.5%;
+}
+.maintext h3 {
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    margin-left: 165px ;
+    position: absolute; 
+    top: 40%; 
+    left: 0;
+    right: 0;
+    margin-top: -0.5%;
+}
+
+.maintext a{
+    border-radius: 2vw;
+    text-decoration: none;
+    padding: 1vw;
+    background-color: rgb(35, 41, 92);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    border: 0.1vw solid black;
+    text-align: center;
+    position: absolute; 
+    top: 50%; 
+    right: 44%;
+    margin-top: -0.5%;
+    width: 10vw;
+}
+
+.maintext img
+{
+  width: 5vw;
+  height: 7vh;
+}
+
+
+.icons img {
+    width: 30px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 60%;
+}
+.icons
+{
+    margin-right: 20px;
+}
+.button{
+    width: 200px;
+    padding: 15 px 0;
+    text-align: center;
+    margin:20 px 10 px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:#ffffff;
+    cursor: pointer;
+
+}
+

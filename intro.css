@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    background-image: url(img/paper.jpg); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#0b0e3b;
+ 
+    width: 100vw;
+    height: 7vh;
+    padding: 5px ; 
+}
+
+.botbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b0e3b;
+
+    width: 100vw;
+    height: 5vh;
+    padding: 5px ;
+    position: fixed;
+    bottom: 0;
+}
+
+.botbar h5
+{
+    color: #ffffff;
+
+}
+
+.links{
+    margin-top: 6px;
+    margin-right: 40px;
+    
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    margin-left: 40px; 
+    margin-top: 6px;
+    text-decoration: none;
+}
+.logo img {
+    width: 3vw; 
+    height: auto; 
+    margin-left: 40px;
+    border-radius: 60%;
+}
+
+.head{
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    color: white;
+}
+
+.p{
+    background-color: #0b0e3b;
+    border: 0.1vw solid black;
+    width: 50vw;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    border-radius: 2vw;
+    color: white;
+    padding: 2vw;
+}
+
+.pic{
+    position: absolute;
+    left: 70%;
+    top: 30%;
+}
+
+.pic img{
+    border-radius: 100vw;
+    border: 0.1vw solid black;
+    width: 15vw;
+}
